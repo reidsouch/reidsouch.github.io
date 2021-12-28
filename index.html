@@ -34,7 +34,7 @@
 							<h2>Machine learning research at the cutting<br />
 							edge of biomechanics and healthcare.</h2>
 						</header>
-						<p>My name is Reid Souchereau, a current Master's Student in Integrated Systems Engineering at The Ohio State University. I received my bachelor's degree in biomedical engineering and continued on with biomechanics research into graduate school. I am currently applying deep learning to bypass the need for EMGs to measure muscle activity. I have multiple pre- and postprint publications in the areas of deep learning, exoskeletons, IMUs, and biomaterials. </p>
+						<p>My name is Reid Souchereau, a current Master's Student in Integrated Systems Engineering at The Ohio State University. I received my bachelor's degree in biomedical engineering and continued on with biomechanics research into graduate school. I am currently applying deep learning time series algorithms to bypass the need for EMGs to measure muscle activity. I have multiple pre- and postprint publications in the areas of deep learning, exoskeletons, IMUs, and biomaterials. </p>
 						<p>Throughout my time in college I developed a curiosity for finding a deeper understanding of the world. Truth in data. Truth in research. Truth in life. I believe that in the right hands, machine learning and artificial intelligence can help guide the world to fair, safe, and healthy world.</p>
 						<ul class="actions">
 							<li><a href="#" class="button">Learn More</a></li>
@@ -46,35 +46,42 @@
 						<h2>Recent Work</h2>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
-								<h3>Magna sed consequat tempus</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<a href="images/projs/spinesim.gif" class="image fit thumb"><img src="images/projs/spinesim.gif" alt="" /></a>
+								<h3>Current Thesis Work: Deep Learning EMGs</h3>
+								<p>Predict muscle forces without measuring muscle activity.</p>
 							</article>
+
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
-								<h3>Ultricies lacinia interdum</h3>
-								<p>QQQQQQQQQQQQQQQQQQQQ</p>
+								<a href="tree/cse5524/images/Picture4.gif" class="image fit thumb"><img src="tree/cse5524/images/Picture4.gif" alt="" /></a>
+								<h3><a href="tree/cse5524/csecvproject.html">Tracking Initialization - Mall Dataset</a></h3>
+								<p>Project for improving static tracking with various masking techniques in openCV.</p>
 							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/projs/realtor.jpg" class="image fit thumb"><img src="images/projs/realtor.jpg" alt="" /></a>
+								<h3>Apartment Webscraper</h3>
+								<p>Scrape realtor.com to get housing data.</p>
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="tree/stats/title.jpg" class="image fit thumb"><img src="tree/stats/title.jpg" alt="" /></a>
+								<h3><a href="tree/stats/Red-Wine-Analysis.html.html">Red Wine Regression</a></h3>
+								<p>Group project - full EDA and regression analysis .</p>
+							</article>
+
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/projs/dynamicjoints.JPG" class="image fit thumb"><img src="images/projs/dynamicjoints.JPG" alt="" /></a>
 								<h3>IMU Benchmarking</h3>
 								<p>Publication investigating the feasibility of using IMUs for biomechanical metrics.</p>
 							</article>
+
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/projs/exoover.JPG" class="image fit thumb"><img src="images/projs/exoover.JPG" alt="" /></a>
 								<h3>Overhead Exoskeleton Evaluation</h3>
 								<p>Publication investigating exoskeleton efficacy for fatigue and safety.</p>
 							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
-								<h3>Nunc enim commodo aliquet</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
-								<h3>Risus ornare lacinia</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
+
+
 						</div>
 						<ul class="actions">
 							<li><a href="#" class="button">Full Portfolio</a></li>
@@ -82,6 +89,7 @@
 					</section>
 
 				<!-- Three -->
+
 					<section id="three">
 						<h2>Get In Touch</h2>
 						<p>Feel free to email, call, or text for any inquiries.</p>
@@ -89,14 +97,22 @@
 							<div class="col-8 col-12-small">
 								<form method="post" action="#">
 									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+
+										<div class="col-6 col-12-xsmall">
+											<input type="text" name="name" id="name" placeholder="Name" /></div>
+
+										<div class="col-6 col-12-xsmall">
+											<input type="text" name="email" id="email" placeholder="Email" /></div>
+
+										<div class="col-12">
+											<textarea name="message" id="text" placeholder="Message" rows="4"></textarea></div>
 									</div>
 								</form>
+
 								<ul class="actions">
 									<li><input type="submit" value="Send Message" /></li>
 								</ul>
+
 							</div>
 							<div class="col-4 col-12-small">
 								<ul class="labeled-icons">
@@ -440,7 +456,9 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 			</div>
 
-		<!-- TODO: Buttons with links to resume-->
+		<!-- TODO: Link to CV/Resume-->
+		<!-- TODO: Update Webscraper on github-->
+		<!-- TODO: Other side projects, Rocket league-->
 
 		<!-- Footer -->
 			<footer id="footer">
